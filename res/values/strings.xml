@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- GrandRiverTransitActivity -->
+    <string name="app_name">Grand River Transit</string>
+    <string name="MainActivity_title">My Favorites</string>
+    <string name="MainActivity_localDBVersion">local_db_version</string>
+    <string name="MainActivity_localDBName">local_db_name</string>
+    <string name="MainActivity_latestDBVersion">latest_db_version</string>
+    <string name="MainActivity_latestDBName">latest_db_name</string>
+    <string name="MainActivity_lastTimeCheck">last_time_check</string>
+    <string name="MainActivity_tmpDBPrefix">tmp_</string>
+    
+    
+    <!-- Main menu options -->
+    <string name="MainScreenMenuItemTitle_fullSchedule">Full Schedule</string>
+    <string name="MainScreenMenuItemTitle_about">About</string>
+    <string name="MainScreenMenuItemTitle_settings">Settings</string>
+    <string name="MainScreenMenuItemTitle_newRoute">New Schedule</string>
+    
+    <!-- Main menu buttons: -->
+    
+    <!-- AppSettings -->
+    <string name="AppSettingsScreen_activityTitle">Settings</string>
+    <string name="AppSettingsScreen_minDistance_bestAccuracy">10</string>
+    <string name="AppSettingsScreen_minDistance_mediumAccuracy">100</string>
+    <string name="AppSettingsScreen_minDistance_worseAccuracy">500</string>
+    <string name="AppSettingsScreen_minTime_bestAccuracy">30000</string>
+    <string name="AppSettingsScreen_minTime_mediumAccuracy">180000</string>
+    <string name="AppSettingsScreen_minTime_worseAccuracy">600000</string>
+    
+    <!-- About Screen -->
+    <string name="AboutScreen_activityTitle">About</string>
+    <string name="AboutScreen_title">About</string>
+    <string name="AboutScreen_content">Content</string>
+    
+    <!-- New Schedule Screen -->
+    <string name="NewScheduleScreen_activityTitle">New Schedule</string>
+    <string name="NewScheduleScreen_nearByStop">Pick a Nearby Stop</string>
+    <string name="NewScheduleScreen_pickARoute">Pick a Route</string>
+    
+    
+    
+    <!-- Shared Preferences -->
+    <string name="SharedPreference_GPS">sharedPreferenceGPS</string>
+    <string name="SharedPreference_GPSAccuracy">sharedPreferenceGPSAccuracy</string>
+    
+    <!-- NearbyStops -->
+    <string name="NearbyStopsScreen_activityTitle">Nearby Stops</string>
+    
+    <!-- MapView -->
+    <string name="MapView_showRoutesFromThisStop">Show Routes</string>
+    
+    <!-- RouteList -->
+    <string name="RouteList_activityTitle">Select a Route</string>
+    <string name="RouteList_searchHint">Search for a Route</string>
+    
+    <!-- RouteMaker -->
+    <string name="RouteMaker_activityTitle">New Route</string>
+    
+    <!-- StopList -->
+    <string name="StopList_activityTitle">Stop List</string>
+    <string name="StopList_setStartStop">Start</string>
+    <string name="StopList_setEndStop">End</string>
+    
+    <!-- PickARoute -->
+    <string name="PickARoute_activityTitle">Pick A Route</string>
+    
+    <!-- BusStopTime -->
+    <string name="BusStopTime_activityTitle">Bus Stop Time</string>
+    
+    <!-- DirectionList -->
+    <string name="DirectionList_activityTitle">Pick A Direction</string>
+
+</resources>
+

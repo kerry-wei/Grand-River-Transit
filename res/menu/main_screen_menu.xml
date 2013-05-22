@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+        android:id="@+id/MainScreenMenuItem_newRoute"
+        android:title="@string/MainScreenMenuItemTitle_newRoute"/>
+    <item 
+        android:id="@+id/MainScreenMenuItem_fullSchedule"
+        android:title="@string/MainScreenMenuItemTitle_fullSchedule"/>
+    <item 
+        android:id="@+id/MainScreenMenuItem_settings"
+        android:title="@string/MainScreenMenuItemTitle_settings"/>
+    <item
+        android:id="@+id/MainScreenMenuItem_about"
+        android:title="@string/MainScreenMenuItemTitle_about"/>
+</menu>

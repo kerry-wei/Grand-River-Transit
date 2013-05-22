@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="settings_GPSAccuracy">
+	   <item>Best Accuracy</item>
+	   <item>Medium Accuracy</item>
+	   <item>Lowest Accuracy</item>
+	</string-array>
+	<string-array name="settings_GPSAccuracy_values">
+	   <item>10</item>
+	   <item>100</item>
+	   <item>500</item>
+	</string-array>
+	
+	<string-array name="settings_updateFrequency">
+	   <item>Every Day</item>
+	   <item>Every Week</item>
+	   <item>Every Month</item>
+	</string-array>
+    <string-array name="settings_updateFrequency_values">
+        <item>everyDay</item>
+        <item>everyWeek</item>
+        <item>everyMonth</item>
+    </string-array>
+    
+
+</resources>

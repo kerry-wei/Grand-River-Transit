@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip" >
+
+    <ImageView
+        android:id="@+id/StopListWithStartAndEnd_busIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dip"
+        android:src="@drawable/bus_grey" />
+
+    <TextView
+        android:id="@+id/StopListWithStartAndEnd_topText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/StopListWithStartAndEnd_busIcon"
+        android:layout_toRightOf="@+id/StopListWithStartAndEnd_busIcon"
+        android:text="stop number"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/StopListWithStartAndEnd_bottomText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/StopListWithStartAndEnd_busIcon"
+        android:layout_alignLeft="@+id/StopListWithStartAndEnd_topText"
+        android:text="stop name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <!-- 
+    <ToggleButton
+        android:id="@+id/StopListWithStartAndEnd_endButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textOff="End"
+        android:textOn="Start" />
+
+    <ToggleButton
+        android:id="@+id/StopListWithStartAndEnd_startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/StopListWithStartAndEnd_endButton"
+        android:layout_alignBottom="@+id/StopListWithStartAndEnd_endButton"
+        android:layout_toLeftOf="@+id/StopListWithStartAndEnd_endButton"
+        android:textOff="Start"
+        android:textOn="End" />
+     -->
+</RelativeLayout>

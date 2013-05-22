@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kerrywei.GrandRiverTransit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:icon="@drawable/grt_icon"
+        android:label="@string/app_name" >
+        
+        <uses-library android:name="com.google.android.maps" />
+        
+        <activity
+            android:label="@string/app_name"
+            android:name=".GrandRiverTransitActivity" 
+            android:screenOrientation="portrait">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name=".BusStopTime"
+            android:label="@string/BusStopTime_activityTitle"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity android:name=".AppSettings"
+                  android:label="@string/AppSettingsScreen_activityTitle"
+                  android:screenOrientation="portrait">
+            
+        </activity>
+        
+        <activity android:name=".About"
+                  android:label="@string/AboutScreen_activityTitle"
+                  android:screenOrientation="portrait">
+        </activity>
+        
+        <activity android:name=".NewSchedule"
+                  android:label="@string/NewScheduleScreen_activityTitle"
+                  android:screenOrientation="portrait">
+        </activity>
+        
+        <activity android:name=".NearbyStops"
+                  android:label="@string/NearbyStopsScreen_activityTitle"
+                  android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        
+        <activity android:name=".RouteListSearchableActivity" >
+        <intent-filter>
+            <action android:name="android.intent.action.SEARCH" />
+        </intent-filter>
+        <meta-data android:name="android.app.searchable"
+                   android:resource="@xml/searchable"/>
+        </activity>
+        
+        <activity android:name=".RouteList"
+                  android:label="@string/RouteList_activityTitle"
+                  android:screenOrientation="portrait">
+            <meta-data android:name="android.app.default_searchable"
+                   android:value=".RouteListSearchableActivity" />
+        </activity>
+        
+        <activity
+            android:name=".RouteMaker"
+            android:label="@string/RouteMaker_activityTitle"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+            
+        </activity>
+        
+        <activity 
+            android:name=".StopList"
+            android:label="@string/StopList_activityTitle"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".StopsList"
+            android:label="@string/StopList_activityTitle"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name=".PickARoute"
+            android:label="@string/PickARoute_activityTitle"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity
+            android:name=".DirectionList"
+            android:label="@string/DirectionList_activityTitle"
+            android:screenOrientation="portrait">
+        </activity>
+            
+    </application>
+
+</manifest>

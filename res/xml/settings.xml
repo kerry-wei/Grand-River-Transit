@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="GPS Accuracy"
+        android:summary="Best accuracy provides most accurate GPS info, but consumes more battery."
+        android:key="GPSAccuracy"
+        android:defaultValue="10"
+        android:entries="@array/settings_GPSAccuracy"
+        android:entryValues="@array/settings_GPSAccuracy_values" />
+        
+    <ListPreference
+        android:title="Check Update"
+        android:summary="How frequently do you want to check udpates of bus schedules?"
+        android:key="UpdateFrequency"
+        android:defaultValue="everyWeek"
+        android:entries="@array/settings_updateFrequency"
+        android:entryValues="@array/settings_updateFrequency_values" />
+    
+    
+</PreferenceScreen>
